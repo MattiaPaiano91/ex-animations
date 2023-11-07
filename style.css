@@ -95,7 +95,7 @@
   font-size: 60px;
 }
 .ex-11-icon:hover {
-  animation: gira-meno 4s linear;
+  animation: gira-meno 3s linear;
 }
 @keyframes gira-meno {
   0% {
@@ -104,8 +104,8 @@
   90% {
     transform: rotate(270deg);
   }
-
 }
+
 
 .ex-12-button,
 .ex-13-button {
@@ -141,7 +141,7 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-  animation: shift-bar 2s linear;
+  animation: shift-bar 3s linear;
 }
 @keyframes shift-bar {
   0% {
@@ -159,18 +159,18 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-  animation: shift-bar-bottom 2s linear;
+  animation: shift-bar-bottom 3s linear;
 }
 
 @keyframes shift-bar-bottom {
   0% {
-    right: 10%;
+    right: 20%;
   }
   50% {
     right: calc(100% - 80px);
   }
   100% {
-    right: 10%;
+    right: 20%;
   }
 }
 
